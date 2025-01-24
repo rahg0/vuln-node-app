@@ -1,5 +1,5 @@
 {
-  "name": "package-json-demo-07",
+  "name": "vuln-node-app",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
