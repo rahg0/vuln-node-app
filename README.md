@@ -30,7 +30,7 @@ To address all issues (including breaking changes), run:
   npm audit fix --force
 ```
 
-## Vulnerabilities Check using Orca ShiftLeft CLI
+## Vulnerabilities Check using Orca Code Scanning
 ```sh
 /vuln-node-app$ orca-cli fs scan ./
   ____   ___   _____ ___      ____ ____ _____ __  __ ___   ____ ________  __
