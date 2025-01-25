@@ -6,7 +6,7 @@ console.log(colors.rainbow("Color changed to rainbow, via color npm package...")
 console.log(toUpper("lowercase to uppercase via to uppercase npm package..."));
 
 
-zip('/tmp/sample-node-app.zip', ['./app.js', './package.json', './package-lock.json'], function(err) {
+zip('/tmp/sample-node-app.zip', ['./app.js', './package.json', './yarn.lock'], function(err) {
     if  (err) {
         console.error(err.stack);
         process.exit(1);
